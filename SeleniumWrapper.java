@@ -12,7 +12,7 @@ import com.thoughtworks.selenium.DefaultSelenium;
 
 
 public class SeleniumWrapper {
-	static String localip = "221.127.252.14";
+	static String localip = "";
 	static private int PortCounter = 6666;
 	private ArrayList<ServerThread> SeleniumThreads;
 	ArrayList<String> proxies;
